@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Claude local state (when people install the kit into their project)
+.claude/memory_graph.json
+.claude/rag_chroma_db/
+.claude/session_logs/
+.claude/session_memory.jsonl
+.claude/secrets.json
+.claude/notifications.log
+.claude/live_monitor.log*
+.claude/*_state.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets (never commit)
+*.key
+*_credentials*
+telegram_token.txt
+gmail_password.txt
